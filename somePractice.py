@@ -25,7 +25,8 @@ b_ranked_missions = Hinata["missions_completed"] - Hinata["c_ranked_missions"]
 print("//////////////////////////////////")
 
 print("////////Shinobi info card////////".upper())
-print(" ")
+ml = 50
+print(" " * ml)
 print(Hinata["lastName"].upper(), Hinata["first_name"].upper())
 print(" ")
 print("Fighting Style: ", Hinata["fighting_style"] , " \n\n\n\nNumber of missions completed: ", Hinata["missions_completed"])
